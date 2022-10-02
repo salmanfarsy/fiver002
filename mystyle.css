@@ -16,3 +16,16 @@
     font-size: 1.5rem;
     align-items: center;
 }
+#closeBtn{
+    background: lightgreen;
+    height: 40px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 0 2px 0px;
+}
+.filter select{
+    background: lightblue;
+    line-height: inherit;
+    border: none;
+    padding: 2px;
+}
