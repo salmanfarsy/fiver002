@@ -2,3 +2,17 @@
 .off{
     display: none;
 }
+.banner-text>*{
+    margin: 0;
+    padding: 25px;
+    font-size: 5rem;
+}
+.filter{
+    display: flex;
+    background: rgb(228, 228, 228);
+}
+.filter> *{
+    margin: 20px;
+    font-size: 1.5rem;
+    align-items: center;
+}
