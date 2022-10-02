@@ -50,3 +50,31 @@
     place-items: center;
 
 }
+.prev, .next{
+    display: inline;
+    z-index: 9;
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 5rem;
+    background: #00000073;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.prev{
+   right: 0; 
+}
+.next{
+left: 0;
+}
+@media screen and (max-width:500px) {
+    .filter{
+        flex-direction: column;
+    }
+    .banner-text>* {
+        margin: 0;
+        padding: 5px;
+        font-size: 2rem;
+    }
+}
