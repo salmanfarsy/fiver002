@@ -1,11 +1,13 @@
 $('.items').slick({
+    slidesToShow: 4,
+  slidesToScroll: 1,
+  centerMode: true,
             autoplay: true,
             autoplaySpeed: 5000,
             dots: false,
-            fade: true,
             arrows: true,
-            prevArrow: '<span class="prev"> > </span>',
-            nextArrow: '<span class="next"> < </span>',
+            prevArrow: '<span class="prev"> < </span>',
+            nextArrow: '<span class="next"> > </span>',
             responsive: [
                 {
                     breakpoint: 768,
