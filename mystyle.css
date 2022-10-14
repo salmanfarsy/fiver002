@@ -157,6 +157,35 @@ right: 0;
     margin: 10px auto;
     object-fit: contain;
 }
+footer{
+    background: var(--blue);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer h2{
+    color: white;
+}
+footer a:link{
+    color: white;
+    display: block;
+}
+.footer-links a{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.footer-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    margin: 10px 20px;
+}
+.footer-list li{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width:500px) {
     .filter{
         flex-direction: column;
