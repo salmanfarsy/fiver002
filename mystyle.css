@@ -1,4 +1,6 @@
-
+*{
+    --blue : #0071bc;
+}
 .off{
     display: none;
 }
@@ -45,14 +47,17 @@
 }
 
 .box{
-   width: 300px;
-    height:200px ;
-    font-size: 3rem;
+    width: 280px;
+    height: 200px;
+    color: skyblue;
+    font-size: 2.5rem;
     margin: 15px auto;
     display: grid;
     place-items: center;
-    box-shadow: 0 0 3px 0 black;
-    color: white;
+    box-shadow: 0 0 5px 2px royalblue;
+    /* color: white; */
+    border-radius: 5px;
+   
 
 }
 .box img{
@@ -64,9 +69,55 @@
 
 } */
 .mobile{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2019/11/05/11/35/on-hand-mobile-4603315_1280.jpg) ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/01.jpg) ;
     background-size: cover;
 }
+.travel{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/02.jpg) ;
+    background-size: cover;
+}
+.insurance{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/03.jpg) ;
+    background-size: cover;
+}
+.rental{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/04.png) ;
+    background-size: cover;
+}
+.kitchen{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/05.png) ;
+    background-size: cover;
+}
+.beauty{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/06.png) ;
+    background-size: cover
+}
+.toy{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/07.png) ;
+    background-size: cover;
+}
+.clothe{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/08.jpg) ;
+    background-size: cover;
+}
+.health{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/09.jpg) ;
+    background-size: cover;
+}
+.book{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/10.jpg) ;
+    background-size: cover;
+}
+.dining{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/11.png) ;
+    background-size: cover;
+}
+.babies{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/12.png) ;
+    background-size: cover;
+}
+
+
 .country{
     display: inline;
 }
@@ -107,3 +158,12 @@ right: 0;
         font-size: 2rem;
     }
 }
+
+/* image links */
+/* https://i1.wp.com/bjak.my/blog/wp-content/uploads/2021/10/A2.jpeg?resize=854%2C540&ssl=1
+https://s.yimg.com/ny/api/res/1.2/V0j23eHwbSaRuDbPQYtVPA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNQ--/https://s.yimg.com/uu/api/res/1.2/gIyTnWza517bCWfrdM.wPw--~B/aD00OTg7dz03NTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/insidermonkey.com/c19079d6005411ab14b7b6962c1b4455
+https://thumbs.dreamstime.com/b/pay-as-you-go-payg-written-notebook-business-concept-pay-as-you-go-payg-written-notebook-business-concept-200652046.jpg
+https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/05/20172622/ce-travel.jpg
+https://npr.brightspotcdn.com/dims4/default/abec1bb/2147483647/strip/true/crop/867x534+12+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F9c%2F3a2e47fc412a857e60875267fc30%2Fclothing-istock-vectorikart-2021-0730.jpg
+https://www.moneycrashers.com/wp-content/uploads/2018/11/diy-do-it-yourself-wooden-block-letters.jpg
+https://isotechgh.com/wp-content/uploads/2020/02/Broadband-Internet.jpg */
