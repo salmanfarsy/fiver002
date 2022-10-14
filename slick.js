@@ -12,7 +12,9 @@ $('.items').slick({
                 {
                     breakpoint: 768,
                     settings: {
-                        arrows: true
+                        arrows: true,
+                        slidesToShow: 1,
+                         slidesToScroll: 1,
                     }
                 }
             ]
@@ -31,7 +33,9 @@ $('.items').slick({
                         {
                             breakpoint: 768,
                             settings: {
-                                arrows: true
+                                arrows: true,
+                                slidesToShow: 2,
+                         slidesToScroll: 1,
                             }
                         }
                     ]

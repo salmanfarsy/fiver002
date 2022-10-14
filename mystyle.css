@@ -195,6 +195,9 @@ footer a:link{
         padding: 5px;
         font-size: 2rem;
     }
+    footer{
+        display: block;
+    }
 }
 
 /* image links */
