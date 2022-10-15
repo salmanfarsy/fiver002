@@ -1,5 +1,7 @@
 const searchInput = document.querySelector('#search-input');
 const filters    = document.querySelector('.filters');
+const priceFilter    = document.querySelector('#price-filter');
+const priceLimit   = document.querySelector('.price-limit');
 const closeBtn    = document.querySelector('#closeBtn');
 
 searchInput.addEventListener('focus', (e)=>{
@@ -13,4 +15,9 @@ searchInput.addEventListener('focus', (e)=>{
 // })
 closeBtn.addEventListener('click', ()=>{
     filters.classList.add('off')
+})
+
+//price filter
+priceFilter.addEventListener('input', ()=>{
+    priceLimit.textContent = priceFilter.value;
 })

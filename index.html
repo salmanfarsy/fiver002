@@ -280,6 +280,37 @@
                                     <option value="cat1">Manufacturer 1</option>
                                 </select>
                             </div>
+                            <div class="brand-filter">
+                                <Label>Select Brand</Label>
+                                <select name="brand-filter" id="brand-filter">
+                                    <option value="cat1">CBrand 1</option>
+                                    <option value="cat1">Brand 2</option>
+                                    <option value="cat1">Brand 3</option>
+                                    <option value="cat1">Brand 4</option>
+                                </select>
+                            </div>
+                            <div class="Category-filter">
+                                <Label>Select Category</Label>
+                                <select name="Category-filter" id="Category-filter">
+                                    <option value="cat1">CCategory 1</option>
+                                    <option value="cat1">Category 2</option>
+                                    <option value="cat1">Category 3</option>
+                                    <option value="cat1">Category 4</option>
+                                </select>
+                            </div>
+                            <div class="Price-filter">
+                                <Label>Select Price</Label>
+                                <!-- <select name="Price-filter" id="Price-filter">
+                                    <option value="cat1">CPrice 1</option>
+                                    <option value="cat1">Price 2</option>
+                                    <option value="cat1">Price 3</option>
+                                    <option value="cat1">Price 4</option>
+                                </select> -->
+                                <input type="range" name="price-filter" id="price-filter" 
+                                min="0" max="1000" value="90" step="10"
+                                >
+                                <div class="price-range">$0 - $<span class="price-limit">90</span></div>
+                            </div>
                             <button type="button" id="closeBtn">Close</button>
                         
                     </div>
@@ -394,6 +425,12 @@
                     </div>
                     <div class="box sports">
                         Sports & Outdoors
+                    </div>
+                    <div class="box energy">
+                       Energy
+                    </div>
+                    <div class="box broadband">
+                       BroadBand
                     </div>
      
                 </div>

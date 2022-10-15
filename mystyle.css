@@ -13,8 +13,16 @@
     font-size: 5rem;
 }
 .filter{
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin: 10px auto;
     display: flex;
+    flex-direction: column;
+    align-items: baseline;
     background: rgb(228, 228, 228);
+    z-index: 100;
+    box-shadow: 0 0 5px 1px;
 }
 .filter> *{
     margin: 20px;
@@ -120,7 +128,14 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/13.png) ;
     background-size: cover;
 }
-
+.energy{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/14.webp) ;
+    background-size: cover;
+}
+.broadband{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/15.jpg) ;
+    background-size: cover;
+}
 .country{
     display: inline;
 }
