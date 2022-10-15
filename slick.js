@@ -6,8 +6,8 @@ $('.items').slick({
             autoplaySpeed: 5000,
             dots: false,
             arrows: true,
-            prevArrow: '<span class="prev"> < </span>',
-            nextArrow: '<span class="next"> > </span>',
+            prevArrow: '<span class="prev"> <i class="fa-sharp fa-solid fa-caret-left"></i></span>',
+            nextArrow: '<span class="next"> <i class="fa-sharp fa-solid fa-caret-right"></i></span>',
             responsive: [
                 {
                     breakpoint: 768,
@@ -27,8 +27,8 @@ $('.items').slick({
                     autoplaySpeed: 5000,
                     dots: false,
                     arrows: true,
-                    prevArrow: '<span class="prev"> < </span>',
-                    nextArrow: '<span class="next"> > </span>',
+                    prevArrow: '<span class="prev"> <i class="fa-sharp fa-solid fa-caret-left"></i></span>',
+            nextArrow: '<span class="next"> <i class="fa-sharp fa-solid fa-caret-right"></i></span>',
                     responsive: [
                         {
                             breakpoint: 768,
