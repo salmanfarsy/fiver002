@@ -176,6 +176,10 @@ right: 0;
     height: 100px;
     margin: 10px auto;
     object-fit: contain;
+    transition: all 0.5s;
+}
+.brand-logo:hover{
+    transform: scale(1.2);
 }
 footer{
     background: var(--blue);
@@ -193,6 +197,14 @@ footer a:link{
 .footer-links a{
     margin: 10px;
     font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.footer-links a:hover{
+    transform: scale(1.2);
+}
+A.top-search-tag:hover{
+    transform: scale(1.2);
+    z-index: 999;
 }
 .footer-list{
     margin: 0;
@@ -200,12 +212,34 @@ footer a:link{
     list-style: none;
     color: white;
     margin: 10px 20px;
+    transition: all 0.5s;
+}
+.footer-list li:hover{
+    transform: scale(1.2);
 }
 .footer-list li{
     margin: 10px;
     font-size: 1.5rem;
 }
-
+#filters{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.top-links-bar .plain-links A:link, .top-links-bar .plain-links A:visited{
+    padding: 1rem;
+}
+.top-links-bar .plain-links A:hover{
+   font-size: 1.5rem;
+    color: red;
+}
+.prod-box{
+    transition: all 0.5s;
+}
+.prod-box:hover{
+    transform: scale(1.2);
+}
 @media screen and (max-width:500px) {
     .filter{
         flex-direction: column;
